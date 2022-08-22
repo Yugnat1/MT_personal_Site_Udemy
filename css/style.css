@@ -29,18 +29,27 @@ h3 {
   }
 
   p {
+    line-height: 2;
     color: #40514E;
     font-size: 1rem;
   }
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #EAF6F6
 }
 
 hr {
-  margin: 30 auto 30 auto;
+  margin: 50px auto;
   border-style: none none dotted none;
-  border-color: #EAF6F6;
+  border-color: #718383;
   border-width: 12px;
   height: 0px;
   width: 5%;
@@ -50,7 +59,16 @@ hr {
   background-color: #CEE5D0;
   text-align: center;
   position: relative;
-  padding-top: 100px;
+  padding-top: 20px;
+}
+
+.profile {
+  margin: 100 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .top-cloud {
@@ -66,6 +84,7 @@ hr {
 }
 
 .small_profile_picture {
+  margin-top: 50px;
   border-radius: 50%;
   width: 300px;
 }
@@ -95,13 +114,13 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Georgia;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   background: #3498db;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  margin-top: 50px;
+  margin: 100px auto;
 }
 
 .btn:hover {
@@ -114,11 +133,26 @@ hr {
   text-decoration: none;
 }
 
-.bottom-container {
- margin-top: 50px;
- padding-left: 20px;
+.contact-me {
+  margin: 50 auto;
+  height: 400px;
 }
 
-.bottom-container > a {
-  margin: 10 30 10 30;
+.contact-message {
+  width: 30%;
+  padding: 50px auto 60px;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding: 50px 0 20px;
+  height: 150px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
